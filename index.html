@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Horrorscope v1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+</head>
+<body>
+    <div class="page-container">
+        <div id="top-bar">
+            <img src="./img/logo.png">
+        </div>
+        <div id="choose-text-container">Choose your zodiac sign</div>
+        <div id="sign-container">
+            <div class="sign-tile-container" onclick="showSignReading(0)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/aquarius.png">
+                    <div class="sign-name">Aquarius</div>
+                    <div class="sign-dates">20 Jan - 18 Feb</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(1)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/pisces.png">
+                    <div class="sign-name">Pisces</div>
+                    <div class="sign-dates">Feb 19 - Mar 20</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(2)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/aries.png">
+                    <div class="sign-name">Aries</div>
+                    <div class="sign-dates">Mar 21 - Apr 19</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(3)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/taurus.png">
+                    <div class="sign-name">Taurus</div>
+                    <div class="sign-dates">Apr 20 - May 20</div>
+                </div>
+            </div>
+            
+            <div class="sign-tile-container" onclick="showSignReading(4)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/gemini.png">
+                    <div class="sign-name">Gemini</div>
+                    <div class="sign-dates">May 21 - Jun 20</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(5)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/cancer.png">
+                    <div class="sign-name">Cancer</div>
+                    <div class="sign-dates">Jun 21 - Jul 22</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(6)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/leo.png">
+                    <div class="sign-name">Leo</div>
+                    <div class="sign-dates">Jul 23 - Aug 22</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(7)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/virgo.png">
+                    <div class="sign-name">Virgo</div>
+                    <div class="sign-dates">Aug 23 - Sep 22</div>
+                </div>
+            </div>
+            
+            <div class="sign-tile-container" onclick="showSignReading(8)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/libra.png">
+                    <div class="sign-name">Libra</div>
+                    <div class="sign-dates">Sep 23 - Oct 22</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(9)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/scorpio.png">
+                    <div class="sign-name">Scorpio</div>
+                    <div class="sign-dates">Oct 23 - Nov 21</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(10)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/sagittarius.png">
+                    <div class="sign-name">Sagittarius</div>
+                    <div class="sign-dates">Nov 22 - Dec 21</div>
+                </div>
+            </div>
+            <div class="sign-tile-container" onclick="showSignReading(11)">
+                <div class="sign-tile">
+                    <img src="./img/zodiac/capricorn.png">
+                    <div class="sign-name">Capricorn</div>
+                    <div class="sign-dates">Dec 22 - jan 19</div>
+                </div>
+            </div>
+        </div>
+        <div id="sign-header">
+            <span id="reading-sign-name">SIGN_NAME</span>
+            <span id="reading-sign-date">yyyy-mm-dd</span>
+        </div>
+        <div id="reading">
+            reading text sample text yeet sadsag ddsjjr jkjnyn sfdhjjtr 
+        </div>
+    </div>
+</body>
+<!--Random number generator for seeded random-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+<script src='./js/main.js'></script>
+</html>
