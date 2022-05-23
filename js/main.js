@@ -6,8 +6,8 @@ var horoscopes = {};
 
 var loaded = 0;
 
-fetch('./../data/easter-eggs.json').then(respone => {return respone.json();}).then(jsondata => { eastereggs = jsondata; loaded += 1; if (loaded == 2) { makeReadings(); }});
-fetch('./../data/readings.json').then(respone => {return respone.json();}).then(jsondata => { horoscopes = jsondata; loaded += 1; if (loaded == 2) { makeReadings(); }});
+fetch('./data/easter-eggs.json').then(respone => {return respone.json();}).then(jsondata => { eastereggs = jsondata; loaded += 1; if (loaded == 2) { makeReadings(); }});
+fetch('./data/readings.json').then(respone => {return respone.json();}).then(jsondata => { horoscopes = jsondata; loaded += 1; if (loaded == 2) { makeReadings(); }});
 
 var seed = Math.floor(Date.now() / 24 / 3600 / 1000);
 
